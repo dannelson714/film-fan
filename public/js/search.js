@@ -2,7 +2,7 @@
 const getMovies = async () => {
     console.log("ding ding");
     let movies = await fetch(
-      "https://protected-escarpment-79312.herokuapp.com//api/movies"
+      "https://protected-escarpment-79312.herokuapp.com/api/movies"
     ).then(data => data.json()).then(movieData => movieData)
         console.log({movies});
     return movies
