@@ -9,7 +9,7 @@ console.log(urlWhere);
 const getMovies = async () => {
     console.log("ding ding");
     let movies = await fetch(
-        "https://floating-depths-94622.herokuapp.com/api/movies"
+        "https://protected-escarpment-79312.herokuapp.com//api/movies"
     )
         .then((data) => data.json())
         .then((movieData) => movieData);
